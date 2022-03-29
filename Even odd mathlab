@@ -1,0 +1,15 @@
+j=1;
+k=1;
+for i=1:100
+    if mod(i,2)==0
+        even(j)=i;
+        j=j+1;
+    else
+        odd(k)=i;
+        k=k+1;
+    end
+end
+disp('Even Numbers Are: ');
+disp(even);
+disp('Odd Numbers Are: ');
+disp(odd);
